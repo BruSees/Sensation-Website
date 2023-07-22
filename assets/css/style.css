@@ -1277,7 +1277,7 @@ span2 {
 }
 
 .single-card-1 {
-  background-image: linear-gradient(to bottom, #55DBC6 0%, #000 70%);
+  background-image: linear-gradient(to bottom, #000f94 0%, #000 70%);
   padding: 30px;
   border-radius: 10px;
   height: 400px;
@@ -1286,11 +1286,11 @@ span2 {
 }
 
 .single-card-1:hover {
-  background-image: linear-gradient(to bottom, #55DBC6 20%, #000 100%);
+  background-image: linear-gradient(to bottom, #000f94 20%, #000 100%);
 }
 
 .single-card-2 {
-  background-image: linear-gradient(to bottom, #EE5D6C 0%, #000 70%);
+  background-image: linear-gradient(to bottom, #00bfff 0%, #000 70%);
   padding: 30px;
   border-radius: 10px;
   height: 400px;
@@ -1298,141 +1298,13 @@ span2 {
 }
 
 .single-card-2:hover {
-  background-image: linear-gradient(to bottom, #EE5D6C 20%, #000 100%);
-}
-
-.single-card-3 {
-  background-image: linear-gradient(to bottom, #7aee5d 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-3:hover {
-  background-image: linear-gradient(to bottom, #7aee5d 20%, #000 100%);
-}
-
-.single-card-4 {
-  background-image: linear-gradient(to bottom, #ff0062 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-4:hover {
-  background-image: linear-gradient(to bottom, #ff0062 20%, #000 100%);
-}
-
-.single-card-5 {
-  background-image: linear-gradient(to bottom, #035d81 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-5:hover {
-  background-image: linear-gradient(to bottom, #035d81 20%, #000 100%);
-}
-
-.single-card-5 {
-  background-image: linear-gradient(to bottom, #035d81 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-5:hover {
-  background-image: linear-gradient(to bottom, #035d81 20%, #000 100%);
-}
-
-.single-card-6 {
-  background-image: linear-gradient(to bottom, #1b8b5d 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-6:hover {
-  background-image: linear-gradient(to bottom, #1b8b5d 20%, #000 100%);
-}
-
-.single-card-7 {
-  background-image: linear-gradient(to bottom, #ff0000 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-7:hover {
-  background-image: linear-gradient(to bottom, #ff0000 20%, #000 100%);
-}
-
-.single-card-7 {
-  background-image: linear-gradient(to bottom, #4c00ff 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-7:hover {
-  background-image: linear-gradient(to bottom, #4c00ff 20%, #000 100%);
-}
-
-.single-card-8 {
-  background-image: linear-gradient(to bottom, #fbff00 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-8:hover {
-  background-image: linear-gradient(to bottom, #fbff00 20%, #000 100%);
-}
-
-.single-card-9 {
-  background-image: linear-gradient(to bottom, #ffa600 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-9:hover {
-  background-image: linear-gradient(to bottom, #ffa600 20%, #000 100%);
-}
-
-.single-card-10 {
-  background-image: linear-gradient(to bottom, #ff5e00 0%, #000 70%);
-  padding: 30px;
-  border-radius: 10px;
-  height: 400px;
-  text-align: center;
-}
-
-.single-card-10:hover {
-  background-image: linear-gradient(to bottom, #ff5e00 20%, #000 100%);
+  background-image: linear-gradient(to bottom, #00bfff 20%, #000 100%);
 }
 
 
 
 .single-card-1 .img-card-1,
-.single-card-2 .img-card-2,
-.single-card-3 .img-card-3,
-.single-card-4 .img-card-4,
-.single-card-5 .img-card-5,
-.single-card-6 .img-card-6,
-.single-card-7 .img-card-7,
-.single-card-8 .img-card-8,
-.single-card-9 .img-card-9,
-.single-card-10 .img-card-10
+.single-card-2 .img-card-2
  {
   position: relative;
   width: 100px;
@@ -1445,15 +1317,7 @@ span2 {
 }
 
 .single-card-1 .img-card-1,
-.single-card-2 .img-card-2,
-.single-card-3 .img-card-3,
-.single-card-4 .img-card-4,
-.single-card-5 .img-card-5,
-.single-card-6 .img-card-6,
-.single-card-7 .img-card-7,
-.single-card-8 .img-card-8,
-.single-card-9 .img-card-9,
-.single-card-10 .img-card-10
+.single-card-2 .img-card-2
 {
   width: 100%;
   height: auto;
@@ -1461,15 +1325,8 @@ span2 {
 }
 
 .single-card-1:hover .img-card-1,
-.single-card-2:hover .img-card-2,
-.single-card-3:hover .img-card-3,
-.single-card-4:hover .img-card-4,
-.single-card-5:hover .img-card-5,
-.single-card-6:hover .img-card-6,
-.single-card-7:hover .img-card-7,
-.single-card-8:hover .img-card-8,
-.single-card-9:hover .img-card-9,
-.single-card-10:hover .img-card-10 {
+.single-card-2:hover .img-card-2
+ {
   transform: scale(1.2);
 }
 
