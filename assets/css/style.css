@@ -11,7 +11,6 @@ body {
 }
 
 * {
-user-select:none
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -1017,6 +1016,7 @@ span2 {
 .price-section .single-price:hover {
   background-color: #090909;
   box-shadow: 5px 8px 12px 0 #000f94;
+  transition: box-shadow 0.6s
 }
 
 .price-section .single-price .icon {
@@ -1282,6 +1282,7 @@ span2 {
   border-radius: 10px;
   height: 400px;
   text-align: center;
+
 }
 
 .single-card-1:hover {
@@ -1289,7 +1290,7 @@ span2 {
 }
 
 .single-card-2 {
-  background-image: linear-gradient(to bottom, #4c4c4c 0%, #000 70%);
+  background-image: linear-gradient(to bottom, #EE5D6C 0%, #000 70%);
   padding: 30px;
   border-radius: 10px;
   height: 400px;
@@ -1297,12 +1298,68 @@ span2 {
 }
 
 .single-card-2:hover {
-  background-image: linear-gradient(to bottom, #4c4c4c 20%, #000 100%);
+  background-image: linear-gradient(to bottom, #EE5D6C 20%, #000 100%);
+}
+
+.single-card-3 {
+  background-image: linear-gradient(to bottom, #7aee5d 0%, #000 70%);
+  padding: 30px;
+  border-radius: 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.single-card-3:hover {
+  background-image: linear-gradient(to bottom, #7aee5d 20%, #000 100%);
+}
+
+.single-card-4 {
+  background-image: linear-gradient(to bottom, #ff0062 0%, #000 70%);
+  padding: 30px;
+  border-radius: 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.single-card-4:hover {
+  background-image: linear-gradient(to bottom, #ff0062 20%, #000 100%);
+}
+
+.single-card-5 {
+  background-image: linear-gradient(to bottom, #035d81 0%, #000 70%);
+  padding: 30px;
+  border-radius: 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.single-card-5:hover {
+  background-image: linear-gradient(to bottom, #035d81 20%, #000 100%);
+}
+
+.single-card-5 {
+  background-image: linear-gradient(to bottom, #035d81 0%, #000 70%);
+  padding: 30px;
+  border-radius: 10px;
+  height: 400px;
+  text-align: center;
+}
+
+.single-card-5:hover {
+  background-image: linear-gradient(to bottom, #035d81 20%, #000 100%);
 }
 
 
 .single-card-1 .img-card-1,
-.single-card-2 .img-card-2
+.single-card-2 .img-card-2,
+.single-card-3 .img-card-3,
+.single-card-4 .img-card-4,
+.single-card-5 .img-card-5,
+.single-card-6 .img-card-6,
+.single-card-7 .img-card-7,
+.single-card-8 .img-card-8,
+.single-card-9 .img-card-9,
+.single-card-10 .img-card-10
  {
   position: relative;
   width: 100px;
@@ -1314,8 +1371,16 @@ span2 {
   transition: transform 0.5s ease;
 }
 
-.img-card-1 img,
-.img-card-2 img
+.single-card-1 .img-card-1,
+.single-card-2 .img-card-2,
+.single-card-3 .img-card-3,
+.single-card-4 .img-card-4,
+.single-card-5 .img-card-5,
+.single-card-6 .img-card-6,
+.single-card-7 .img-card-7,
+.single-card-8 .img-card-8,
+.single-card-9 .img-card-9,
+.single-card-10 .img-card-10
 {
   width: 100%;
   height: auto;
@@ -1323,134 +1388,16 @@ span2 {
 }
 
 .single-card-1:hover .img-card-1,
-.single-card-2:hover .img-card-2 {
+.single-card-2:hover .img-card-2,
+.single-card-3:hover .img-card-3,
+.single-card-4:hover .img-card-4,
+.single-card-5:hover .img-card-5,
+.single-card-6:hover .img-card-6,
+.single-card-7:hover .img-card-7,
+.single-card-8:hover .img-card-8,
+.single-card-9:hover .img-card-9,
+.single-card-10:hover .img-card-10 {
   transform: scale(1.2);
-}
-
-/*-------- Footer Section css --------*/
-.footer-area {
-  position: relative;
-  overflow: hidden;
-  background-color: #090909;
-}
-
-.footer-area .logo {
-  max-width: 100px;
-}
-
-.footer-about {
-  max-width: 320px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.footer-about .text {
-  margin-top: 30px;
-}
-
-.footer-about .footer-social {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.footer-about .footer-social li {
-  display: inline-block;
-  margin-right: 25px;
-}
-
-.footer-about .footer-social li a {
-  font-size: 24px;
-}
-
-.footer-about .footer-social li a .fa-youtube {
-  color: white;
-  padding: 7px 10px 5px 10px;
-  border-radius: 6px;
-}
-
-.footer-about .footer-social li a:hover .fa-youtube {
-  color: white;
-  background-color: red;
-}
-
-.footer-about .footer-social li a .fa-discord {
-  color: white;
-  padding: 7px 10px 5px 10px;
-  border-radius: 6px;
-}
-
-.footer-about .footer-social li a:hover .fa-discord {
-  color: white;
-  background-color: #5865F2;
-}
-
-.footer-about .footer-social li a .fa-inbox {
-  color: white;
-  padding: 7px 10px 5px 10px;
-  border-radius: 6px;
-}
-
-.footer-about .footer-social li a:hover .fa-inbox {
-  color: white;
-  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
-}
-
-.footer-link-wrapper {
-  width: 100%;
-  max-width: 33%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.footer-link .link {
-  padding-top: 10px;
-}
-
-.footer-link .link li {
-  margin-top: 10px;
-}
-
-.footer-link .link li a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #b2c7d9;
-  transition: all .3s ease-out 0s;
-}
-
-.footer-link .link li a:hover {
-  color: white;
-  font-weight: 500;
-}
-
-.badge-trust {
-  display: inline-block;
-  padding: 0.35em 0.65em;
-  font-size: .75em;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-  background-color: #000f94;
-}
-
-.footer-title .title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5rem;
-}
-
-.footer-copyright .copyright {
-  background-color: #090909;
-  border-style: solid;
-  border-width: 3px 0px 0px 0px;
-  border-image: linear-gradient(to right, #000f94, #00bfff);
-  border-image-slice: 1;
-  padding: 25px 0 10px 0;
-}
-
-.footer-copyright .copyright .copyright-text .text a {
-  color: #b2c7d9;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width:767px) {
