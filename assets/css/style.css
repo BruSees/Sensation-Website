@@ -11,7 +11,6 @@ body {
 }
 
 * {
-  user-select: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,11 +93,11 @@ p {
 
 ::selection {
   color: #ffffff;
-  background: #ff00ff;
+  background: #000f94;
 }
 
 span1 {
-  color: #ff00ff;
+  color: #000f94;
 }
 
 span2 {
@@ -128,7 +127,7 @@ span2 {
     text-align: center;
     line-height: 55px;
     border-radius: 6px;
-    background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+    background-image: linear-gradient(52.7deg, #000f94, #00bfff);
     background-size: 100%;
     background-position: center;
     color: #fff;
@@ -138,7 +137,7 @@ span2 {
 }
 
 .main-btn:hover {
-    background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+    background-image: linear-gradient(52.7deg, #000f94, #00bfff);
     background-size: 200%;
     color: #fff;
 }
@@ -333,7 +332,7 @@ span2 {
 .preloader .loader .spinner-right .spinner-circle {
     left: -100%;
     right: 0;
-    border-left-color: double 6px #ff00ff;
+    border-left-color: double 6px #000f94;
     animation: spinner-right-spin 1333ms cubic-bezier(.4, 0, .2, 1) infinite both;
 
 }
@@ -341,7 +340,7 @@ span2 {
 .preloader .loader .spinner-left .spinner-circle {
     left: 0;
     right: -100%;
-    border-right-color: double 6px #ff00ff;
+    border-right-color: double 6px #000f94;
     animation: spinner-left-spin 1333ms cubic-bezier(.4, 0, .2, 1) infinite both;
 }
 
@@ -352,7 +351,7 @@ span2 {
     height: 100%;
     border: double 6px transparent;
     border-radius: 80px;
-    background-image: linear-gradient(#000, #000), radial-gradient(circle at bottom left, #00bfff 20%, #ff00ff 100%);
+    background-image: linear-gradient(#000, #000), radial-gradient(circle at bottom left, #00bfff 20%, #000f94 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -430,7 +429,7 @@ span2 {
 
 .social-media ul li .fa-inbox:hover {
   color: white;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
 }
 
 .navbar {
@@ -600,7 +599,7 @@ span2 {
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
   z-index: 1;
   animation: arrow 2s linear infinite;
 }
@@ -681,7 +680,8 @@ span2 {
 
 .feature-section .single-features:hover {
   background-color: #090909;
-  box-shadow: 5px 8px 12px 0 #ff00ff;
+  box-shadow: 5px 8px 12px 0 #000f94;
+  transition: box-shadow 0.6s
 }
 
 .feature-section .single-features .icon {
@@ -690,7 +690,7 @@ span2 {
   height: 75px;
   display: flex;
   margin: 30px auto;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
   color: #fff;
   font-size: 40px;
   justify-content:center;
@@ -707,7 +707,7 @@ span2 {
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
   color: #fff;
   z-index: 1;
   animation: arrow 2s linear infinite;
@@ -794,7 +794,7 @@ span2 {
 .owl-nav a.owl-prev:hover,
 .owl-nav a.owl-next:hover {
   color: rgba(255,255,255,1);
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
 }
 
 .explosive-menu {
@@ -851,7 +851,7 @@ span2 {
     z-index: 1;
     border: 0;
     outline: 0;
-    background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+    background-image: linear-gradient(52.7deg, #000f94, #00bfff);
     color: #fff;
     box-shadow: none;
 }
@@ -898,7 +898,7 @@ span2 {
 .bg-line-1 {
   height: 4px;
   width: 440px;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
 }
 
 .header-menu {
@@ -931,7 +931,7 @@ span2 {
   padding: 45px 50px;
   background-color: #000;
   border-radius: 10px;
-  box-shadow: 4px 8px 12px 0 #ff00ff;
+  box-shadow: 4px 8px 12px 0 #000f94;
 }
 
 .users-reviews .single-reviews:hover {
@@ -1013,7 +1013,7 @@ span2 {
 
 .price-section .single-price:hover {
   background-color: #090909;
-  box-shadow: 5px 8px 12px 0 #ff00ff;
+  box-shadow: 5px 8px 12px 0 #000f94;
 }
 
 .price-section .single-price .icon {
@@ -1022,7 +1022,7 @@ span2 {
   height: 140px;
   display: flex;
   margin: 30px auto;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
   color: #000;
   font-size: 40px;
   justify-content:center;
@@ -1039,7 +1039,7 @@ span2 {
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
   color: #090909;
   z-index: 1;
   animation: arrow 2s linear infinite;
@@ -1090,7 +1090,7 @@ span2 {
 .a-access a:hover,
 .a-access .fa-link a:hover {
   font-weight: 700;
-  color: #ff00ff;
+  color: #000f94;
   text-decoration: none;
   list-style: none;
 }
@@ -1244,7 +1244,7 @@ span2 {
     z-index: 1;
     border: 0;
     outline: 0;
-    background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+    background-image: linear-gradient(52.7deg, #000f94, #00bfff);
     color: #fff;
     box-shadow: none;
 }
@@ -1389,7 +1389,7 @@ span2 {
 
 .footer-about .footer-social li a:hover .fa-inbox {
   color: white;
-  background-image: linear-gradient(52.7deg, #ff00ff, #00bfff);
+  background-image: linear-gradient(52.7deg, #000f94, #00bfff);
 }
 
 .footer-link-wrapper {
@@ -1428,7 +1428,7 @@ span2 {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  background-color: #ff00ff;
+  background-color: #000f94;
 }
 
 .footer-title .title {
@@ -1441,7 +1441,7 @@ span2 {
   background-color: #090909;
   border-style: solid;
   border-width: 3px 0px 0px 0px;
-  border-image: linear-gradient(to right, #ff00ff, #00bfff);
+  border-image: linear-gradient(to right, #000f94, #00bfff);
   border-image-slice: 1;
   padding: 25px 0 10px 0;
 }
@@ -1914,7 +1914,7 @@ span2 {
 .custom-field.two input {
   border-radius: 6px;
   background:
-    linear-gradient(90deg, #ff00ff, #00bfff) center bottom/0 3px no-repeat,
+    linear-gradient(90deg, #000f94, #00bfff) center bottom/0 3px no-repeat,
     linear-gradient(90deg, #9370db, #9370db) left bottom/100% 3px no-repeat,
     linear-gradient(90deg, #090909, #090909) left bottom/100% no-repeat;
   transition: background-size 0.3s ease;
