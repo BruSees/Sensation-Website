@@ -626,11 +626,11 @@ span2 {
 }
 
 .header-bg-2 iframe {
-  position: absolute;
+  position: fixed;
   top: -5%;
   left: 0;
-  width: 1920px;
-  height: 790px;
+  width: 100vw;
+  height: 110vh;
   z-index: -5;
 }
 
