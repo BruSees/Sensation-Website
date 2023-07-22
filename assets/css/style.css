@@ -386,7 +386,9 @@ span2 {
 }
 
 .social-media {
-  padding: 0;
+  padding: 7px 0 5px 0;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .social-media ul {
@@ -434,7 +436,7 @@ span2 {
 
 .navbar {
   position: relative;
-  padding: 25px 18px;
+  padding: 5px 5px;
 }
 
 .navbar-brand .logo {
