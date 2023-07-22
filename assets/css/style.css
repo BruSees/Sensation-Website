@@ -629,8 +629,8 @@ span2 {
   position: absolute;
   top: -5%;
   left: 0;
-  width: 130vw;
-  height: 100vh;
+  width: 1920px;
+  height: 790px;
   z-index: -5;
 }
 
